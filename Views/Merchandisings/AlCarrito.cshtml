@@ -1,0 +1,10 @@
+﻿@model MVCMerchandising.Models.Merchandising
+
+@{
+    ViewData["Title"] = "AlCarrito";
+}
+
+<div>
+    <a asp-action="Carrito" asp-route-id="@Model.Id">Ir al Carrito</a> |
+    <a asp-action="Index">Seguir Comprando</a>
+</div>
